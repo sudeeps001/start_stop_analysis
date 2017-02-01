@@ -22,7 +22,7 @@ ends of the reads to start or stop codon positions. Compute coverage data per re
  
 **Usage**  
 Complete workflow:  
-`start_stop_analysis.sh <RPF.bam> <sample_name> <downsample_size>`  
+`start_stop_analysis.sh <RPF.bam>  <start_stop.bed> <sample_name>  <downsample_size>`  
 Python helper script options:  
 `python start_stop_analysis.py -h`
 
